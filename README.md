@@ -102,7 +102,7 @@ shell(ctrl+c) and restart it(assuming the command to start is 'make run-server')
 
     :SlimuxSendKeysPrompt
     KEYS>C-C 'make run-server' Enter
-    
+
 or run previous command with
 
     KEYS>Up Enter
@@ -180,7 +180,7 @@ You can use [Python][] and [CoffeeScript][] hooks as examples.
 - `g:slimux_select_from_current_window = 1` select panes only from current
   window. Defaults to `0` to select panes from all tmux panes.
 
-- `g:slimux_pane_format` customize the formatting of the panes, see the FORMATS section in `man tmux`.  
+- `g:slimux_pane_format` customize the formatting of the panes, see the FORMATS section in `man tmux`.
   The string "`#{pane_id}: `" is always prepended to the format so Slimux can identify the selected pane.
 
 
